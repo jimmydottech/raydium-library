@@ -5,6 +5,7 @@ edition = "2021"
 
 [features]
 devnet = []
+async = ["anchor-client/async"]
 
 [dependencies]
 anchor-client = "=0.29.0"
